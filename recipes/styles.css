@@ -1,0 +1,63 @@
+/* Body styles */
+body {
+    font-family: Arial, sans-serif;
+    line-height: 1.6;
+    margin: 0;
+    padding: 20px;
+    background-color: #f9f9f9; /* Light background color */
+    color: #333; /* Dark text color */
+}
+
+/* Header styles */
+h1 {
+    text-align: center;
+    color: #333;
+    margin-bottom: 20px;
+}
+
+h2 {
+    color: #007BFF; /* Blue color for section headings */
+}
+
+/* List styles */
+ul, ol {
+    padding-left: 30px;
+}
+
+li {
+    margin-bottom: 10px;
+}
+
+/* Instructions styles */
+ol {
+    counter-reset: step-counter; /* Reset the counter for ordered list (ol) */
+}
+
+ol li {
+    position: relative;
+    counter-increment: step-counter; /* Increment the counter for each list item */
+}
+
+ol li::before {
+    content: counter(step-counter) ". "; /* Add the step number before each list item */
+    font-weight: bold;
+}
+
+/* Link styles */
+a {
+    color: #007BFF;
+    text-decoration: none;
+}
+
+a:hover {
+    text-decoration: underline;
+}
+
+/* Container styles */
+.container {
+    max-width: 800px;
+    margin: 0 auto;
+    background-color: #fff; /* White background for the main content area */
+    padding: 20px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
