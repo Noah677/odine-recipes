@@ -4,22 +4,25 @@ body {
     line-height: 1.6;
     margin: 0;
     padding: 20px;
-    background-color: #1d1c1c;
+    background-color: #242323;
+    color: white;
 }
 
 /* Header styles */
 h1 {
-    text-align: center
+    text-align: centers
+    color: white;
     margin-bottom: 30px;
     padding-left: 100px;
-    background-color: rgb(168, 238, 191);
+    background-color: background-color: rgb(15, 15, 15);
 }
 
 ul {
     margin-inline-start: auto;
     text-align: left;
     text-decoration: underline;
-    background-color: rgb(168, 238, 191);
+    background-color: rgb(15, 15, 15);
+    border-radius: 1em;
 }
 
 li {
@@ -27,7 +30,7 @@ li {
 }
 
 /* Link styles */
-a { color: black;
+a { color: rgb(255, 255, 255);
     text-decoration: none;
 }
 
