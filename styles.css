@@ -1,44 +1,37 @@
-/* Body styles */
+
 body {
     font-family: Arial, sans-serif;
     line-height: 1.6;
     margin: 0;
     padding: 20px;
-    background-color: #59ce9d;
+    background-color: #1d1c1c;
 }
 
 /* Header styles */
 h1 {
-    text-align: center;
-    color: #003a91;
+    text-align: center
     margin-bottom: 30px;
+    padding-left: 100px;
+    background-color: rgb(168, 238, 191);
 }
 
-/* List styles */
 ul {
-    list-style: none;
-    padding: 0;
+    margin-inline-start: auto;
+    text-align: left;
+    text-decoration: underline;
+    background-color: rgb(168, 238, 191);
 }
 
 li {
-    margin-bottom: 10px;
+   
 }
 
 /* Link styles */
-a {
-    color: #007BFF;
+a { color: black;
     text-decoration: none;
 }
 
 a:hover {
-    text-decoration: underline;
-}
-
-/* Container styles */
-.container {
-    max-width: 800px;
-    margin: 0 auto;
-    background-color: #78ebff;
-    padding: 20px;
-    box-shadow: 0 2px 4px rgb(209, 8, 8);
+    text-decoration: bold;
+    text-decoration: underline
 }
